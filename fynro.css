@@ -11,9 +11,6 @@ body {
     text-align: center;
 }
 
-body {
-    overflow: hidden;
-}
 /* Navigation Bar */
 header {
     background: white;
