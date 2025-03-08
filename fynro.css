@@ -141,8 +141,25 @@ section .home1 .txt {
     font-family: Gilroy-Medium;
 }
 
-.home1 .verify img{
-    max-width: 70%;
+.home1 .tick1{
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    align-items: center;
+}
+.home1 .tick1 p{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    color: #555555;
+}
+.home1 .tick1 .tick{
+    width: 24px;
+    height: 24px;
+}
+
+.home1 .tick1 .rocket{
+    width: 33px;
+    height: 28px;
 }
 
 .home1 .explore{
@@ -342,8 +359,25 @@ section#solve{
     color: #121214;
 }
 
-.rate {
+.name .rate{
+    width: 50px;
+    height: 24px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
     margin-right: 10px;
+    background-color: #058A4A;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.name .rate img{
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+}
+.name .rate p{
+    font-family: Poppins;
+    font-size: 12px;
 }
 
 .experience {
